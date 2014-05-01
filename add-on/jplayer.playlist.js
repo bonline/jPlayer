@@ -19,6 +19,9 @@
 /*jshint asi:false, bitwise:false, boss:false, browser:true, curly:true, debug:false, eqeqeq:true, eqnull:false, evil:false, forin:false, immed:false, jquery:true, laxbreak:false, newcap:true, noarg:true, noempty:true, nonew:true, onevar:false, passfail:false, plusplus:false, regexp:false, undef:true, sub:false, strict:false, white:false, smarttabs:true */
 /*global  jPlayerPlaylist:true */
 
+define(function () {
+    var jQuery = require("jquery");
+
 (function($, undefined) {
 
 	jPlayerPlaylist = function(cssSelector, playlist, options) {
@@ -468,3 +471,5 @@
 		}
 	};
 })(jQuery);
+
+});
