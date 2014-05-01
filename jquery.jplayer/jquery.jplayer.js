@@ -19,6 +19,9 @@
  * For AMD support, you will need to manually switch the 2 lines in the code below.
  * Search terms: "jQuery Switch" and "Zepto Switch"
  */
+define(function () {
+    var jQuery = require("jquery");
+
 
 (function (root, factory) {
 	if (typeof define === 'function' && define.amd) {
@@ -3115,3 +3118,5 @@
 		OPTION_KEY: "Check your option name."
 	};
 }));
+
+});
